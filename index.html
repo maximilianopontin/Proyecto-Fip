@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <title>THE CARS</title>
 </head>
 <body>
+    <div class="carouselFotos">
+        <div class="presentacion">
+            <h1>the Cars</h1>
+            <h2>Tesla Modelo S Plaid: Innovación en Movilidad Eléctrica</h2>
+            <h3 class="texto-presentacion">Características destacadas del Tesla Modelo S Plaid: <br>
+                Velocidad máxima de más de 320 km/h. <br>
+                Aceleración de 0 a 100 km/h en menos de 2 segundos. <br>
+                Autonomía de hasta 628 kilómetros con una sola carga.<br>
+                Interior lujoso y tecnológicamente avanzado.<br>
+                Sistema de conducción semiautónoma Tesla Autopilot.<br>
+                Diseño aerodinámico y elegante.</h3>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block " src="/image/tesla11.jpg" alt="Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="/image/tesla12.jpg" alt="Slide 2">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="/image/tesla13.jpg" alt="Slide 3">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="/image/tesla14.jpg" alt="Slide 3">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block" src="/image/tesla15.jpg" alt="Slide 3">
+              </div>
     
+            </div>
+        
+            <!-- Controles -->
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+          </div>
+    </div>
+
+    <div class="contenedorImagen">
+      <div class="imagen">
+        <img src="/image/teslaimagen1.jpg" alt="Imagen 1">
+      </div>
+      <div class="imagen">
+        <img src="/image/teslaimagen2.jpg" alt="Imagen 2">
+      </div>
+      <div class="imagen">
+        <img src="/image/teslaimagen3.jpg" alt="Imagen 3">
+      </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
 </body>
 </html>
