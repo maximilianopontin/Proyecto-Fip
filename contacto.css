@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     background-color: #F0F0F0; /* Color de fondo tono pastel */
   }
   .section-titulo {
@@ -36,3 +37,106 @@ body {
   .testimonio p {
     margin-bottom: 5px; /* Espacio entre párrafos */
   }
+=======
+    background-color: #f0f0f0; /* Color de fondo tono pastel */
+  }
+  
+  .tarjeta {
+    margin-left: 250px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    height: 200px; /* Altura de la tarjeta */
+}
+.tarjeta h2 {
+    padding-top: 5px;
+    font-family: 'Arial', sans-serif; /* Cambiar la fuente */
+    font-size: 20px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alinear el texto al centro */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+.tarjeta input[type="text"] {
+    width: 70%;
+    height: 50%;
+    padding: 8px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+  img {
+    margin-bottom: 5px;
+    position: fixed;
+    bottom: 0; /* Alinear con el borde inferior */
+    left: 43%;
+    padding-bottom: 15px;
+    transform: translateX(-50%);
+    width: 600px;
+    height: 338px;  
+    border-radius: 10px; 
+}
+  .formularioDeContacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 80%; 
+    transform: translateX(-50%);
+    padding-bottom: 0px;
+    padding: 20px;
+    background: #F7F8FC;;
+    width: 80%; 
+    max-width: 600px; 
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+}
+
+
+.formularioDeContacto h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 40px; 
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formularioDeContacto .input-group {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.formularioDeContacto .input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formularioDeContacto .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EAEAEA; /* Color de fondo pastel */
+}
+.formularioDeContacto input[type="submit"] {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.formularioDeContacto input[type="submit"]:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+}
+>>>>>>> 9157504c12ba2881d675de86bcb1822d97687d69
