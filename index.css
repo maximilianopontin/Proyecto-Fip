@@ -122,18 +122,11 @@ h2,h3 {
     width: 95%;
     height: 70px; 
 }
-/* Estilos para las listas de elementos */
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.link-red {
+  font-family:'Courier New', Courier, monospace;
     display: flex;
-    flex-direction: row;
-  }
+    flex-direction:row;
+    flex-wrap: wrap;
   
-  /* Estilos para los elementos de la lista */
-  li {
-    margin-bottom: 15px;
-    margin-right: 5px;
-  }
-  
+}
+ 
