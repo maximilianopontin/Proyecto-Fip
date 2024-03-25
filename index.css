@@ -1,71 +1,122 @@
-body {
-    background-color: #f0f0f0; /* Color de fondo tono pastel */
-    height: 100%;
-
-}
- 
-a { 
-  font-weight: bold;
-  padding: 5px 10px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+/* Estilos para la barra de navegación */
+.navbar {
+  margin-bottom: 20px; /* Espacio entre la barra de navegación y el contenido */
 }
 
-nav a {
-  text-decoration: underline;
-  font-weight: bold;
-  padding: 5px 10px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* Estilos para el contenedor flex */
+.contenedor-flex {
+  display: flex;
+  align-items: center; /* Centra verticalmente */
 }
 
-a:hover {
-    background-color: #f8c0c0;
-    text-decoration:overline;
-   
-  }
-  h1 {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-style: oblique;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
-
+/* Estilos para el formulario */
+.formularioDeContacto {
+  width: 50%;
+  padding: 20px;
+  background-color: #f7f7f7; /* Color de fondo */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin-right: 20px; /* Espacio entre el formulario y la imagen */
 }
 
-p {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: large ;
-  text-align: justify;
-  margin-left: 50px;
-  line-height: 1.8;
-  width: 90%;
-  padding-top: 30px;
-    
+.formularioDeContacto h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Color del texto */
 }
 
-h2,h3 {
-  font-size: large;
-  font-style: oblique;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
- 
+.input-group {
+  margin-bottom: 15px;
 }
-.container {
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-attachment: scroll;
-    width: 100%;
-  }
-  
-  .logo-img {
-    width: 120px; /* Ancho deseado de la imagen */
-    height: auto; /* Altura ajustada automáticamente */
-    margin-right: 10px; /* Espacio a la derecha de la imagen */
-    vertical-align: middle; /* Alineación vertical media */
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666; /* Color del texto de la etiqueta */
 }
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; /* Color de fondo del campo de entrada */
+}
+
+.input-group input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50; /* Fondo verde */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Cambio de color al pasar el mouse sobre el botón */
+.input-group input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para la imagen */
+.imagen-container img {
+  max-width: 100%;
+  height: auto;
+}
+/* Estilos para la sección de comentarios de clientes */
+.customer-comments {
+  margin-top: 20px; /* Espacio entre el formulario y los comentarios */
+}
+
+.customer-comments h2 {
+  margin-bottom: 20px;
+  color: #333; /* Color del texto */
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.comment img {
+  width: 50px; /* Tamaño de la imagen */
+  border-radius: 50%; /* Bordes redondeados para una apariencia circular */
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.tarjeta {
+  background-color: #f9f9f9; /* Color de fondo */
+  padding: 20px; /* Espacio interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.tarjeta h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tarjeta input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc; /* Borde */
+  border-radius: 5px; /* Bordes redondeados */
+  box-sizing: border-box;
+}
+
+.tarjeta input[type="text"]::placeholder {
+  color: #999; /* Color del texto de marcador de posición */
+}
+
+.tarjeta input[type="text"]:focus {
+  outline: none;
+  border-color: #6dabe4; /* Color del borde al enfocar */
+}
+
 
   .section-titulo {
     font-size: 24px; /* Tamaño de fuente más pequeño */
