@@ -1,6 +1,19 @@
+
+
 /* Estilos para la barra de navegación */
 .navbar {
   margin-bottom: 20px; /* Espacio entre la barra de navegación y el contenido */
+}
+nav a {
+  text-decoration: underline;
+  font-weight: bold;
+  padding: 5px 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover {
+    background-color: #cfdae7; 
+    text-decoration:overline;
 }
 
 /* Estilos para el contenedor flex */
@@ -117,3 +130,30 @@
   border-color: #6dabe4; /* Color del borde al enfocar */
 }
 
+.footer-contacto {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.link-red {
+  margin-top: 10px;
+}
+
+.link-red a {
+  color: #333; /* Color del texto */
+  text-decoration: none; /* Quita subrayado */
+  margin: 0 5px; /* Espacio entre los iconos */
+}
+
+.link-red a:hover {
+  color: #007bff; /* Cambia el color del texto al pasar el ratón */
+}
+
+.link-red a i {
+  font-size: 24px; /* Tamaño de los iconos */
+}
+
+.footer-contacto p {
+  margin: 10px 0; /* Espacio entre párrafos */
+}
