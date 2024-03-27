@@ -16,10 +16,38 @@ a:hover {
     text-decoration:overline;
 }
 
+h1,h2,h3,h4{
+padding-top: 15px;
+padding-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  align-items: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+img.img-fluid{
+width: 400px;
+height: 267px;
+}
+img.card-img-top{
+  width: 406px;
+  height: 250px;
+  padding-top: 5px;
+  padding-left: 5px;
+
+}
+
+div.col-md-4{
+  padding-top: 10px;
+}
 /* Estilos para el contenedor flex */
 .contenedor-flex {
   display: flex;
   align-items: center; /* Centra verticalmente */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* Estilos para el formulario */
@@ -30,6 +58,7 @@ a:hover {
   border-radius: 10px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
   margin-right: 20px; /* Espacio entre el formulario y la imagen */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .formularioDeContacto h1 {
@@ -83,15 +112,21 @@ a:hover {
 /* Estilos para la sección de comentarios de clientes */
 .customer-comments {
   margin-top: 20px; /* Espacio entre el formulario y los comentarios */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .customer-comments h2 {
   margin-bottom: 20px;
   color: #333; /* Color del texto */
+  font-size: 24px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .comment {
   margin-bottom: 20px;
+  font-size: 22px;
+  
 }
 
 .comment img {
@@ -105,6 +140,7 @@ a:hover {
   padding: 20px; /* Espacio interno */
   border-radius: 10px; /* Bordes redondeados */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .tarjeta h2 {
@@ -129,11 +165,14 @@ a:hover {
   outline: none;
   border-color: #6dabe4; /* Color del borde al enfocar */
 }
-
+.footer {
+  padding-top: 25px;
+}
 .footer-contacto {
   background-color: #f2f2f2;
   padding: 20px;
   text-align: center;
+  
 }
 
 .link-red {
